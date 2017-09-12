@@ -11,7 +11,7 @@ long_description = f.read().strip()
 f.close()
 
 install_requires = [
-    'elasticsearch>=1.5.0, <2.0.0',
+    'elasticsearch',
 ]
 
 setup(
